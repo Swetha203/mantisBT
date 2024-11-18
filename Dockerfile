@@ -68,7 +68,7 @@ RUN chown -R www-data:www-data /var/www/html
 #COPY . /var/www/html
 
 # Expose the default web port
-EXPOSE 80
+EXPOSE 8090
 
 
 # Copy custom configuration file into the container
